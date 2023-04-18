@@ -20,7 +20,7 @@ A simple logo creator for your company.
 
 ## Description
 
-This application is meant for someone who wants to create a logo that displays their brand name. The application takes user input using Node.js, and creates an SVG file with a logo that matches said user input. I wanted to make this web application to challenge my skills with Object Orientated Programming, and Node.js. So far it's been a very tough thing to learn, but I'll be attempting to make this work until it's completed.
+This application is meant for someone who wants to create a logo that displays their brand name. The application takes user input using Node.js, and creates an SVG file with a logo that matches said user input. I wanted to make this web application to challenge my skills with Object Oriented Programming, and Node.js. So far it's been a very tough thing to learn, but I'll be attempting to make this work until it's completed.
 
 ### Demonstration Video
 
