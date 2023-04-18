@@ -1,4 +1,4 @@
-// Download Inquirer@v8.2.4, calls file systems as well
+// Download Inquirer@v8.2.4, fs calls file systems as well
 const inquirer = require("inquirer");
 const fs = require("fs");
 // Importing classes from shapes directory
@@ -35,6 +35,15 @@ const questions = [
   },
 ];
 
+// This is the function that creates the SVG file.
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, (err) => {
+    if (err) throw new Error(err);
+    console.log(
+      "Your new logo is now generated! View it in the newly created 'Logo.svg' file."
+    );
+  });
+}
 // This is the function that will initialize the application
 function init() {
   console.log(`
@@ -45,7 +54,7 @@ function init() {
     `);
 
   inquirer.prompt(questions).then((data) => {
-    writeToFile("./made-it/index.html", generateMarkdown(data));
+    writeToFile("logo.svg", generateMarkdown(data));
   });
 }
 // Function call to initialize app

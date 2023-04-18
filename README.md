@@ -20,6 +20,8 @@ A simple logo creator for your company.
 
 ## Description
 
+This application is meant for someone who wants to create a logo that displays their brand name. The application takes user input using Node.js, and creates an SVG file with a logo that matches said user input. I wanted to make this web application to challenge my skills with Object Orientated Programming, and Node.js. So far it's been a very tough thing to learn, but I'll be attempting to make this work until it's completed.
+
 ## Installation
 
 The first thing you'll want to do is clone the repo, and then open it in your favorite code editor. Using the terminal, install inquirer@v8.2.4, and Node.js if you haven't already. Run npm i to install them. Type Node into the command line after all previous steps are completed to run the application.
