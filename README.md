@@ -1,4 +1,4 @@
-# logo-creator
+# Logo Creator
 
 A simple logo creator for your company.
 
