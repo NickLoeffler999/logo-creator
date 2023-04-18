@@ -48,7 +48,7 @@ function writeToFile(fileName, data) {
 function init() {
   console.log(`
     ========================================================
-    Create a new branding for your company!
+    Create a new logo for your company!
     Answer the following questions/prompts to create your brand.
     ========================================================
     `);
